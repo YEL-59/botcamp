@@ -21,4 +21,6 @@ urlpatterns = [
     path('home/', views.home_view),
     path('c/', views.home),
     path('form/', views.form),
+    path('showa/', views.show),
+    path('search/', views.se),
 ]
